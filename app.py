@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BseModel
+from pydantic import BaseModel
 from typing import List
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
