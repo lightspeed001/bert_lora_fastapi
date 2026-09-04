@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: lora-bert
-        image: gcr.io/YOUR_PROJECT_ID/lora-bert-fastapi:latest  # Replace with your GCR image
+        image: gcr.io/${PROJECT_ID}/lora-bert-fastapi:latest  # Replace with your GCR image
         ports:
         - containerPort: 8000
         resources:
