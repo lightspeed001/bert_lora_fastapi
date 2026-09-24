@@ -24,7 +24,7 @@ graph TD
 - __FastAPI Service Pods__: Containerized FastAPI instances (3 replicas)
 - __LoRA-optimized BERT model__: ML model loaded in memory
 - __GPU Node Pool__: GKE nodes with GPU acceleration
-- __Cloud Storage__: Where your model are stored (GCS bucket)
+- __Cloud Storage__: Where the model weights are stored (GCS bucket)
 
 ---
 
